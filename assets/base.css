@@ -3,8 +3,6 @@ body {
     margin: 0;
 }
 
-
-
 body {
     font-family: 'Quicksand', sans-serif;
     background-color: #f1f1f1;
@@ -29,13 +27,9 @@ body {
     width: 15%;
     background-color: orangered;
     padding: 10px 20px 0px;
-
-
 }
 
-
 .menu ul {
-
     list-style: none;
     padding-left: 0;
 }
@@ -60,7 +54,6 @@ body {
     background-color: rgb(5, 108, 108);
     min-height: 150px;
     height: 15.1rem;
-
 }
 
 img {
@@ -73,84 +66,103 @@ img {
     min-height: 300px;
     padding: 20px;
 }
-.content .servicosClinicosECirurgicos{
+/*Tabelas*/
+
+.content .tabela {
+    margin: .5rem 0;
+    text-align: center;
+    
+}
+
+.horario-atendimento-tabela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h3 {
+    margin: 1rem 0 .4rem 0;
+    
+
+}
+
+
+.tabela tbody tr:nth-child(even) {
+    background-color: #f7f2f2;
+} 
+
+.content .tabela td {
+    padding: 0 2rem;
+}
+
+
+.content .tabela th {
+    text-align: center;
+    padding: .5rem;
+    background-color: #22333d;
+    color: white;
+}
+.content .servicosClinicosECirurgicos {
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
 }
-.content .bemEstarEPetShop{
+
+.content .bemEstarEPetShop {
     display: flex;
     flex-direction: row;
     gap: 6em;
 }
-.content .tabela{
-    margin: .5rem 0;
-    text-align: center;
-    
-    
 
-}
 
-.tabela tbody tr:nth-child(even) {
-  background-color: #f7f2f2;
-}
-
-.content .tabela th{
-    text-align: center;
-    padding: .5rem;
-    background-color:#22333d;
-    color: white;
-
-}
-.content .tabela td{
- padding: 0 2rem;
-}
-
-.content .tabela .servicos{
+.content .tabela .servicos {
     text-align: left;
-
 }
 
-.content .mapaComFormulario{
+.servicos p {
+    margin: 0;
+}
+
+.content .mapaComFormulario {
     display: flex;
     flex-direction: row;
     gap: 5rem;
 }
-.content .formulario{
+
+.content .formulario {
     margin-top: -1rem;
     background-color: #22333d;
     border-radius: 1rem;
     padding: 1rem 2rem 1rem 2rem;
-    color:white;
+    color: white;
     display: flex;
     flex-direction: column;
-    
 }
-.content .nomeEmailAssunto{
+
+.content .nomeEmailAssunto {
     display: flex;
     flex-direction: column;
     gap: .5rem;
-    margin-bottom: 1rem;  
+    margin-bottom: 1rem;
+}
 
-    
-}
-    
-.content .formulario h3{
+.content .formulario h3 {
     color: #ff4500;
-    
+
 }
-button{
+
+button {
     background-color: #ff4500;
     color: white;
-    
 }
-
 
 .footer {
     background-color: #8b8898;
     min-height: 150px;
 }
-.footer footer{display: flex;
+
+.footer footer {
+    display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: -7rem;
@@ -163,6 +175,7 @@ button{
     width: 11rem;
     height: 9rem;
 }
+
 .footer .ratoCorrendo {
     position: relative;
     bottom: 1rem;
@@ -170,22 +183,27 @@ button{
     width: 6rem;
     height: 3rem;
 }
+
 .footer a {
     text-decoration: none;
     color: white;
-    
+
 }
-.contato ,.endereco{
+
+.contato,
+.endereco {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+
 }
-.contato{
-margin-top: -1rem;
-gap: .5rem;
+
+.contato {
+    margin-top: -1rem;
+    gap: .5rem;
 }
-.endereco{
-margin-top: -2rem;
-gap: .5rem;
+
+.endereco {
+    margin-top: -2rem;
+    gap: .5rem;
 }
