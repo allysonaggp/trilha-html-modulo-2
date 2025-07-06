@@ -66,30 +66,34 @@ img {
     min-height: 300px;
     padding: 20px;
 }
+
 /*Tabelas*/
 
 .content .tabela {
     margin: .5rem 0;
     text-align: center;
-    
+
 }
 
-.horario-atendimento-tabela{
+.horario-atendimento-tabela {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .content h3 {
-    margin: 1rem 0 .4rem 0;
-    
+    margin: 1rem 0 1rem 0;   
+
+}
+.content p {
+    margin: 1rem 0 1rem 0;
 
 }
 
 
 .tabela tbody tr:nth-child(even) {
     background-color: #f7f2f2;
-} 
+}
 
 .content .tabela td {
     padding: 0 2rem;
@@ -102,6 +106,7 @@ img {
     background-color: #22333d;
     color: white;
 }
+
 .content .servicosClinicosECirurgicos {
     display: flex;
     flex-direction: row;
@@ -195,8 +200,8 @@ button {
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
+
 
 .contato {
     margin-top: -1rem;
